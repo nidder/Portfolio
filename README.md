@@ -1,5 +1,5 @@
-# Responsive Web Development
+# Nida's Portfolio
 
-All web design projects completed as part of the Responsive web design certification.
+Portfolio page completed as part of the Responsive web design certification by Free Code Camp.
 
-These include: A survery page, product landing page, personal branding page
+
