@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+#navbar {
+  position: fixed;
+  top: 0px;
+  display: flex;
+  font-size: 40px;
+  width: 100vh;
+  left: 900px;
+  
+}
+
+.navlink {
+  padding: 20px;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  color: green;
+  margin-top: 16px;
+}
+
+#name {
+  font-size: 100px;
+  margin: 90px 0px -100px 300px;
+  padding-top: 200px;
+  
+}
+
+#welcome-section {
+  height: 100vh; 
+  background: url(https://th.bing.com/th/id/Rdbb00f72b79f108336438699fdb5f002?rik=DqVZ3gpGUo%2b9bQ&pid=ImgRaw)
+}
+ 
+#description {
+  font-size: 30px;
+  margin: 200px;
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+img{
+  border: 1px solid black;
+  width: 450px;
+  height: 300px;
+  padding: 30px;
+  margin: 20px 20px 20px 120px;
+  opacity: 0.85;
+}
+
+img:hover {
+  opacity: 1;
+ 
+}
+
+
+#projects {
+  display: in-line block;
+  margin: 20px;
+  
+}
+
+.project-tile{
+  margin-top: 60px;
+  
+}
+
+#marie-curie {
+  margin-top: 60px;
+}
+
+h2 {
+  font-size: 40px;
+  padding: 30px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  
+}
+
+p{
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 0px;
+}
+
+#email {
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+#submit {
+  font-size: 25px;
+  background-color: green;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  
+}
+
+
+
+@media screen and (max-width: 800px){
+  #name{
+    font-size: 80px;  
+  }
+  #navbar{
+    display: flex;
+    justify-content: center;
+  }
+} 
